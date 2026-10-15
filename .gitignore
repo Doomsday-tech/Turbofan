@@ -1,0 +1,14 @@
+﻿__pycache__/
+*.py[cod]
+*.class
+.venv/
+.env
+backend/data/raw/*
+!backend/data/raw/.keep
+backend/data/processed/*
+!backend/data/processed/.keep
+backend/app/models/*.joblib
+!backend/app/models/.keep
+frontend/node_modules/
+frontend/dist/
+frontend/.env*
